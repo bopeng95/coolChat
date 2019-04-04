@@ -25,7 +25,7 @@ class OnlineContainer extends Component {
         })
         return (
             <div>
-                {arr}
+                
             </div>
         )
     }

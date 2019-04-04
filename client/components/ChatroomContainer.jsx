@@ -12,7 +12,7 @@ const chatroomStyles = {
 
 const styles = {
   left: {
-    width: '50%',
+    width: '100%',
     display: 'inline-block'
   },
   right: {

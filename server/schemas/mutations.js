@@ -93,7 +93,7 @@ module.exports = {
       result.success = true;
       result.username = username;
       const obj = { person: result.username }
-      await pubsub.publish(USER_LOGGED, { userLoggedIn: obj });
+      //await pubsub.publish(USER_LOGGED, { userLoggedIn: obj });
     } else {
       result.error = 'username already exists';
     }
